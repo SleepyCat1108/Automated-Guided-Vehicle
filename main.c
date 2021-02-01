@@ -63,9 +63,6 @@ static void SPI_read_ADXL(uint8_t addr,uint8_t* rx_data,uint8_t bytes)
 
     for(int i = 1 ;i < 7 ; i++)
       NRF_LOG_INFO("Data[%d] %d",i,rx_data[i]);
-   
-    
-
 }
     
     
@@ -105,7 +102,7 @@ static void ADXL_Read_For_Test(uint8_t addr){
 }
 
 //@brief SPI user event handler.
-//@param event£±
+//@param eventÂ£Â±
 
 int main(void)
 {
