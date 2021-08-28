@@ -1,6 +1,6 @@
-# Development Board 
+### Development Board 
 nrf52832
-# Module
+### Module
 ADXL345 accelerometer 
 
 ### Description
